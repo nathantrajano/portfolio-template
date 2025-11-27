@@ -1,14 +1,14 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
-  role: "YOUR_ROLE",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  name: "Nathan Amaro Trajano",
+  role: "Game Developer",
+  introduction: "Hi, I'm Nathan, a passionate game developer.",
+  description: "I love creating immersive experiences through games.",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
-    github: "https://github.com/NAME",
+    github: "https://github.com/nathantrajano",
     itchIO: "https://NAME.itch.io",
     linkedIn: "https://www.linkedin.com/in/NAME",
   }
@@ -16,8 +16,8 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
-    description: "GAME_DESCRIPTION",
+    name: "Apulgalipse",
+    description: "Apulgalipse é um jogo desenvolvido como projeto da disciplina de Engenharia de Software da Universidade Federal de Campina Grande (UFCG), no período 2025.1.\nNeste jogo, o prédio do CAA enfrenta o pior pesadelo de sua história: uma infestação apocalíptica de pulgas. Prepare-se para encarar coceiras épicas, bosses pulguentos e salvar os alunos antes que seja tarde demais.",
     genres: ["GAME_GENRE", "GAME_GENRE..."],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
